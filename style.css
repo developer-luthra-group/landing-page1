@@ -1269,7 +1269,7 @@ footer {
     }
 
     header .wrap {
-        padding: 14px;
+        padding:0px 14px;
     }
 
     .cta-row.top {
@@ -1337,7 +1337,7 @@ footer .bottom {
 }
 
 @media (max-width: 700px) {
-    div.wrap .header-cta {
+    div.wrap .header-cta a{
         display: none;
     }
 }
