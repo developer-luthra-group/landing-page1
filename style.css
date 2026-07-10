@@ -302,7 +302,6 @@ header .wrap {
     }
 }
 
-
 .hero-badge {
     display: inline-flex;
     align-items: center;
@@ -406,7 +405,7 @@ header .wrap {
     }
 }
 
-@media (max-width:430px) {
+@media (max-width: 430px) {
     .lead-card {
         margin-top: 440px;
     }
@@ -497,7 +496,7 @@ header .wrap {
     object-position: center 10%;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
     .hero-bg {
         height: 100%;
     }
@@ -769,8 +768,6 @@ section {
     border-top: none;
 }
 
-
-
 .ps-col.solution .ps-list li::before {
     content: "✓";
     position: absolute;
@@ -822,7 +819,7 @@ section {
     text-align: center;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
     .plate-head {
         height: 60px;
     }
@@ -1263,22 +1260,38 @@ footer {
     }
 }
 
+
+.cummins-logo3 {
+    display: none;
+}
+
 @media (max-width: 480px) {
     .foot-grid {
         grid-template-columns: 1fr;
     }
 
     header .wrap {
-        padding:0px;
+        padding: 0px;
     }
-.brand{
-    gap: 0px;
-}
+
+    .brand {
+        gap: 0px;
+    }
+
     .cta-row.top {
         display: flex;
         justify-content: center;
     }
+
+    .cummins-logo2 {
+        display: none;
+    }
+
+    .cummins-logo3 {
+        display: inline;
+    }
 }
+
 
 footer h5 {
     font-family: "Poppins", sans-serif;
@@ -1339,7 +1352,7 @@ footer .bottom {
 }
 
 @media (max-width: 700px) {
-    div.wrap .header-cta a{
+    div.wrap .header-cta a {
         display: none;
     }
 }
@@ -1365,7 +1378,6 @@ footer .bottom {
 .solution {
     background: #f0fbfb;
 }
-
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -1411,13 +1423,13 @@ footer .bottom {
 }
 
 .head.problem {
-    background: #FFF8EE;
-    color: #9A4E05;
+    background: #fff8ee;
+    color: #9a4e05;
 }
 
 .head.solution {
-    background: #EEF9F8;
-    color: #00324A;
+    background: #eef9f8;
+    color: #00324a;
 }
 
 /* Cells */
@@ -1433,11 +1445,11 @@ footer .bottom {
 /* Backgrounds */
 
 .cell.problem {
-    background: #FFF8EE;
+    background: #fff8ee;
 }
 
 .cell.solution {
-    background: #EEF9F8;
+    background: #eef9f8;
 }
 
 /* Icons */
@@ -1467,7 +1479,7 @@ footer .bottom {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    color: #14B8A6;
+    color: #14b8a6;
     font-weight: 700;
 }
 
@@ -1491,7 +1503,7 @@ footer .bottom {
 /* Hover */
 
 .cell {
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
 
 .cell:hover {
@@ -1500,8 +1512,7 @@ footer .bottom {
 
 /* Responsive */
 
-@media(max-width:991px) {
-
+@media (max-width: 991px) {
     .compare-table {
         grid-template-columns: 1fr;
     }
@@ -1517,5 +1528,4 @@ footer .bottom {
     .cell::before {
         left: 22px;
     }
-
 }
