@@ -1290,6 +1290,9 @@ footer {
     .cummins-logo3 {
         display: inline;
     }
+    footer .brand {
+    margin-left: -10px;
+}
 }
 
 
