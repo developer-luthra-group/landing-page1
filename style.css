@@ -1290,8 +1290,21 @@ footer {
     .cummins-logo3 {
         display: inline;
     }
+
     footer .brand {
-    margin-left: -10px;
+        margin-left: -10px;
+    }
+
+    .auth-locs .pin {
+        padding: 6px 10px;
+    }
+
+    .auth-locs {
+        gap: 8px;
+    }
+    .swiper-button-next,
+.swiper-button-prev{
+    display: none;
 }
 }
 
